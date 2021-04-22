@@ -24,8 +24,8 @@ public class ConverterTest {
 
     @Test
     public void whenConverter0RblThen1Euro() {
-        int in = 0;
-        int expected = 1;
+        int in = 420;
+        int expected = 6;
         int out = Converter.rubleToEuro(in);
         Assert.assertEquals(expected, out);
     }
