@@ -18,7 +18,7 @@ public class Converter {
         int in1 = 360;
         int expected1 = 6;
         int out1 = Converter.rubleToDollar(in);
-        boolean passed1 = expected == out;
+        boolean passed1 = expected == out1;
         System.out.println("360 rubles are 6. Test result : " + passed1);
     }
 }
