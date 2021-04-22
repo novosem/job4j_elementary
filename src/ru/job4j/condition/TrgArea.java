@@ -10,4 +10,11 @@ public class TrgArea {
         double rsl = TrgArea.area(2, 2, 2);
         System.out.println("area (2, 2, 2) = " + rsl);
     }
+
+        public static void mmm(String[] args) {
+        float f = 12358.7f;
+        int i = 45981;
+        short rsl = (short) (f + i);
+        System.out.println(rsl);
+    }
 }
